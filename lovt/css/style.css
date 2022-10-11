@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fefefe;
+  font-family: 'Ropa Sans', sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+footer {
+  background-color: #333;
+}
+
+h1 {
+  color: #888;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+h2 {
+  color: #777;
+  font-size: 4.5rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  box-shadow: 0px 5px 5px #ccc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu>div {
+  padding: 2rem 5rem;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu-logo p {
+  color: #aaa;
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+}
+
+.nav-menu img {
+  width: 2.5rem
+}
+
+.content-size {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.destaques {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destaques h1 {
+  font-size: 3rem;
+  padding: 3rem 1rem 2rem;
+}
+
+.destaque-maior {
+  position: relative;
+}
+
+.destaque-maior>img {
+  max-width: 1200px;
+  width: 90vw;
+}
+
+.destaque-arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  top: 50%;
+}
+
+.destaque-arrows img {
+  background-color: rgba(141, 141, 141, 0.6);
+  border: 1px solid rgba(141, 141, 141, 0.6);
+  border-radius: 50%;
+  display: block;
+  height: 5rem;
+  margin: 0 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.destaque-menor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.destaque-menor article {
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 44%;
+}
+
+.destaque-menor-img {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.preco {
+  color: #888;
+  font-size: 2.2rem;
+  font-weight: lighter;
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+.condicao {
+  color: white;
+  font-size: 2rem;
+  justify-self: end;
+  align-self: center;
+  border-radius: 40%;
+  margin-right: 1.5rem;
+  padding: 0.2rem 0.6rem;
+}
+
+.condicao.new {
+  background-color: #51d275;
+  border: 1px solid #51d275;
+}
+
+.condicao.sale {
+  background-color: #dc9730;
+  border: 1px solid #dc9730;
+
+}
+
+.descricao {
+  color: #555;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  grid-column: span 2;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.your-style h2 {
+  font-size: 3rem;
+  margin: 4rem 0 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main-styles {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.main-styles>div {
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.main-styles p {
+  color: whitesmoke;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: black 0.1rem 0.1rem 0.1rem;
+  text-transform: capitalize;
+  z-index: 2;
+}
+
+.industrial-style::before,
+.modern-style::before,
+.classic-style::before {
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  content: '';
+  display: block;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.industrial-style::before {
+  background-image: url('../img/Rectangle_11.png');
+}
+
+.modern-style::before {
+  background-image: url('../img/Rectangle_12.png');
+}
+
+.classic-style::before {
+  background-image: url('../img/Rectangle_13.png');
+}
+
+.address {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30rem;
+  padding: 0 3rem;
+  width: 100%;
+}
+
+.address img {
+  display: block;
+  height: 75%;
+}
+
+.contact-address,
+.social-medias {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.social-medias>ul {
+  display: flex;
+  list-style: none;
+}
+
+.social-medias>ul img {
+  margin: 0.5rem 0.8rem;
+  width: 2rem;
+}
