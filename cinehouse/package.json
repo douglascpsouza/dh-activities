@@ -1,0 +1,11 @@
+{
+  "name": "cinehouse",
+  "version": "1.0.0",
+  "description": "Exercicio DH Cinehouse",
+  "main": "cinema.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Souza",
+  "license": "ISC"
+}

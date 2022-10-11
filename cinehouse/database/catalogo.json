@@ -1,0 +1,98 @@
+[
+  {
+    "codigo": 1,
+    "titulo": "O Poderoso Chefão",
+    "duracao": 175,
+    "atores": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "anoDeLancamento": 1972,
+    "emCartaz": false
+  },
+  {
+    "codigo": 2,
+    "titulo": "O Império Contra-Ataca",
+    "duracao": 142,
+    "atores": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ],
+    "anoDeLancamento": 1980,
+    "emCartaz": false
+  },
+  {
+    "codigo": 3,
+    "titulo": "Um Sonho de Liberdade",
+    "duracao": 142,
+    "atores": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ],
+    "anoDeLancamento": 1994,
+    "emCartaz": false
+  },
+  {
+    "codigo": 4,
+    "titulo": "Matrix",
+    "duracao": 136,
+    "atores": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "anoDeLancamento": 1999,
+    "emCartaz": true
+  },
+  {
+    "codigo": 5,
+    "titulo": "Batman: O Cavaleiro das Trevas",
+    "duracao": 152,
+    "atores": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "anoDeLancamento": 2008,
+    "emCartaz": false
+  },
+  {
+    "codigo": 6,
+    "titulo": "Tudo em Todo o Lugar ao Mesmo Tempo",
+    "duracao": 139,
+    "atores": [
+      "Michelle Yeoh",
+      "Ke Huy Quan",
+      "Jamie Lee Curtis"
+    ],
+    "anoDeLancamento": 2022,
+    "emCartaz": true
+  },
+  {
+    "codigo": 7,
+    "titulo": "Top Gun: Maverick",
+    "duracao": 131,
+    "atores": [
+      "Tom Cruise",
+      "Miles Teller",
+      "Jennifer Connelly"
+    ],
+    "anoDeLancamento": 2022,
+    "emCartaz": true
+  },
+  {
+    "codigo": 8,
+    "titulo": "Seven: Os Sete Crimes Capitais",
+    "duracao": 127,
+    "atores": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey"
+    ],
+    "anoDeLancamento": 1995,
+    "emCartaz": false
+  }
+]
