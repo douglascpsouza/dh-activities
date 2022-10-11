@@ -31,6 +31,7 @@ a {
 }
 
 .header {
+  box-shadow: 0px 5px 5px #ccc;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -169,4 +170,81 @@ a {
 
 .footer>ul>li:first-child {
   font-weight: bold;
+}
+
+/* team-up.html */
+
+.team-up {
+  margin: 6rem;
+}
+
+.team-up>h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.team-up>.form-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.form-area p {
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+
+.team-form label {
+  padding: 0 3rem 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.team-form .main-label,
+.team-form .main-input,
+.team-form select {
+  display: block;
+  font-size: 1.8rem;
+}
+
+.team-form .main-label {
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+}
+
+.team-form .main-input,
+.team-form select,
+.team-form textarea {
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  padding: 0.25rem 1rem;
+  width: 100%;
+}
+
+.team-form label:last-of-type {
+  font-size: 1.8rem;
+  padding-right: 0.75rem;
+}
+
+#curriculum {
+  display: none;
+}
+
+.team-form > .upload {
+  background-color: #777;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.25rem 4rem;
+}
+
+.team-form button[type="submit"] {
+  background-color: #c2185b;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  height: 4rem;
+  margin-top: 2rem;
+  width: 100%;
 }

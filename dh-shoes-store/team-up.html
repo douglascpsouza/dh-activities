@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Shoes Store</title>
+</head>
+<body>
+  <header class="page-content header">
+    <a href="#"><img src="./img/logo-color.png" alt="Logo da empresa Shoes"></a>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#">Todos os Produtos</a></li>
+        <li><a href="#">Coleções</a></li>
+        <li><a href="#">Outlet</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="team-up">
+      <h1>Faça parte do nosso time</h1>
+      <div class="form-area">
+        <form action="#" class="team-form" method="post">
+          <label class="main-label" for="name">Nome</label>
+          <input class="main-input" type="text" name="name" id="name" autofocus required>
+          <label class="main-label" for="email">Email</label>
+          <input class="main-input" type="email" name="email" id="email" required>
+          <label class="main-label" for="phone">Telefone</label>
+          <input class="main-input" type="text" name="phone" id="phone" required>
+
+          <label class="main-label" for="name">Departamentos</label>
+          <select name="department" id="department">
+            <option selected disabled></option>
+            <option value="finance">Financeiro</option>
+            <option value="marketing">Marketing</option>
+            <option value="operations">Operacional</option>
+            <option value="sales">Vendas</option>
+          </select>
+
+          <label class="main-label">Disponibilidade</label>
+          <input type="checkbox" name="shift" id="integral" value="integral">
+            <label for="integral">Integral (8h)</label>
+          <input type="checkbox" name="shift" id="half-shift" value="half-shift">
+            <label for="half-shift">Meio período (4h)</label>
+          <input type="checkbox" name="shift" id="freelancer" value="freelancer">
+            <label for="freelancer">Freelancer</label>
+
+          <label class="main-label">Qual a melhor forma para entrarmos em contato com você?</label>
+          <input type="radio" name="contact" id="via-email"><label for="via-email">Email</label>
+          <input type="radio" name="contact" id="via-call"><label for="via-call">Ligação</label>
+          <input type="radio" name="contact" id="via-whatsapp"><label for="via-whatsapp">WhatsApp</label>
+
+          <label class="main-label">Mensagem</label>
+          <textarea name="message" id="message" rows="5"></textarea>
+
+          <label for="curriculum">Currículo:</label>
+          <button class="upload" type="button" onclick="document.getElementById('curriculum').click()">upload</button>
+          <input type="file" name="curriculum" id="curriculum" accept=
+            "application/msword, application/pdf, image/*, text/plain">
+          
+          <button type="submit">enviar</button>
+        </form>
+
+        <article class="instructions">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat.
+            <br><br>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+            mollit anim id est laborum.
+            <br><br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-content footer">
+    <div>
+      <img src="./img/logo-white.png" alt="Logo da empresa na cor branca">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+         do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <ul>
+      <li><a href="#">categorias</a></li>
+      <li><a href="#">sandálias</a></li>
+      <li><a href="#">botas</a></li>
+      <li><a href="#">tênis</a></li>
+      <li><a href="#">oxford</a></li>
+      <li><a href="#">coturnos</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">institucional</a></li>
+      <li><a href="#">sobre nós</a></li>
+      <li><a href="#">perguntas frequentes</a></li>
+      <li><a href="#">politica de privacidade</a></li>
+      <li><a href="#">rastreamento de pedidos</a></li>
+      <li><a href="#">trabalhe conosco</a></li>
+      <li><a href="#">contato</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
